@@ -1,0 +1,12 @@
+{
+  "main_path": "X:\\Youtube_automation\\src\\main.py",
+  "youtube_url": "https://www.youtube.com/watch?v=8pW1hrWFRnk",
+  "downloaded_audio_path": "X:\\Youtube_automation\\src\\steps",
+  "transcript_path": "X:\\Youtube_automation\\src\\outputs\\transcript.txt",
+  "Blog_output": "X:\\Youtube_automation\\src\\outputs\\blog.md",
+  "post_output": "X:\\Youtube_automation\\src\\outputs\\post.md",
+  "edited_post_output": "X:\\Youtube_automation\\src\\outputs\\edited_post.md",
+  "gmail_id": "rohisaran43@gmail.com",
+  "prompt": "Improve the content",
+  "rewritten_post": "X:\\Youtube_automation\\src\\outputs\\rewritten_post.md"
+}

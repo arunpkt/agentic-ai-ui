@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>View Content</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f5f5f5;
+      font-family: "Montserrat", sans-serif;
+      font-weight:500;
+    }
+
+    .content-container {
+      margin-top: 20px;
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      max-width: 1000px;
+      height: 600px;
+      margin-left: 200px;
+      overflow-y: auto;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      font-family: "Montserrat", sans-serif;
+      max-height: 80vh;
+    }
+
+    .back-btn {
+      margin-top: 20px;
+      display: block;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content-container">
+    <h2 id="viewTitle"></h2>
+    <pre id="viewContent"></pre>
+    <br>
+    <div class="back-btn">
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('viewTitle').textContent = localStorage.getItem('viewTitle') || "Content";
+    document.getElementById('viewContent').textContent = localStorage.getItem('viewContent') || "No content available.";
+  </script>
+
+</body>
+</html>
